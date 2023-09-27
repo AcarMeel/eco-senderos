@@ -32,7 +32,18 @@
 }
 
 .card {
+    border: none;
     border-left: 7px solid var( --primary-color-dark);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.card img {
+    opacity: 0.85;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover img {
+    opacity: 1;
 }
 
 .card-title {
@@ -62,9 +73,11 @@
     font-family: var(--default-font);
 }
 
-.active .page-link {
+.active .page-link,
+.active .page-link:hover {
     background-color: var(--primary-color-dark);
     border-color: var(--primary-color-dark);
+    color: var(--white-color);
 }
 
 .page-link,
