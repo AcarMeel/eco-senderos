@@ -61,7 +61,7 @@ textarea {
     background-color: var(--primary-color);
     color: var(--white-color);
     font-weight: bold;
-    transition: all 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .button--primary:hover {
@@ -73,7 +73,7 @@ textarea {
     color: var(--primary-color-dark);
     border: 2px solid var(--primary-color-dark);
     border-radius: 0;
-    transition: all 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .button--secondary.active,
