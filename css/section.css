@@ -125,6 +125,10 @@ img.icon-sale-alert {
     color: var( --primary-color-dark);
 }
 
+.fa-solid.fa-heart {
+    color: var(--pink);
+}
+
 .form-control,
 .form-select {
     border: 2px solid var(--primary-color-dark);
